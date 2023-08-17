@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define a bean -->
+    <bean id="student" class="com.tcgi.Student">
+        <property name="studName" value="naman"/>
+        <property name="studRoll" value="23"/>
+    </bean>
+    
+    <bean id="course" class="com.tcgi.Course">
+    	<property name="courseName" value="Biology"/>
+    	<property name="courseId" value="1102"/>
+    </bean>
+    
+    <bean id="professor" class="com.tcgi.Professor">
+    	<property name="profName" value="Mr.ashish"/>
+    </bean>
+
+</beans>
